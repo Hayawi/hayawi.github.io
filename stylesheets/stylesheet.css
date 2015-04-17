@@ -101,8 +101,8 @@ footer p {
   color: #008000;
   font-size: 40px;
   font-family: "Courier New", Courier, monospace;
-  padding-left: 100px;
-  margin-right: -200px;
+  padding-left: 17%;
+  margin-right: -35%;
   margin-top: -2px;
 }
 
@@ -282,7 +282,7 @@ Full-Width Styles
   display: block;
   position: absolute;
   top:0;
-  right: -350px;
+  right: -55%;
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
@@ -303,7 +303,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 0px 10px 220px 10px;
+  padding: 0px 1% 12% 1%;
 }
 
 #project_title {
