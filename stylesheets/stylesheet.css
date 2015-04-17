@@ -68,12 +68,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 36px;
-  font-weight: 700;
 }
 
 h2 {
   padding-bottom: 10px;
-  font-size: 32px;
+  font-size: 36px;
+  font-weight: 700;
   background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
@@ -98,7 +98,12 @@ p {
 }
 
 footer p {
-  color: #f2f2f2;
+  color: #008000;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  padding-left: 100px;
+  margin-right: -200px;
+  margin-top: -2px;
 }
 
 a {
@@ -121,9 +126,11 @@ a {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  color: #F2F2F2;
+  color: #008000;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
   text-decoration: underline;
-}
+ }
 
 em {
   font-style: italic;
@@ -275,7 +282,7 @@ Full-Width Styles
   display: block;
   position: absolute;
   top:0;
-  right: 10px;
+  right: -350px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
@@ -287,16 +294,16 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
+  background: url('../images/site_header.png');
+  /*background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: linear-gradient(top, #373737, #212121);*/
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 0px 10px 220px 10px;
 }
 
 #project_title {
@@ -365,7 +372,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: url('../images/site_footer.png');
 }
 
 
@@ -397,7 +404,7 @@ Small Device Styles
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   h3 {
