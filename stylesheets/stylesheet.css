@@ -68,12 +68,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 36px;
+  font-weight: 700;
 }
 
 h2 {
   padding-bottom: 10px;
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 32px;
   background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
@@ -98,12 +98,7 @@ p {
 }
 
 footer p {
-  color: #008000;
-  font-size: 40px;
-  font-family: "Courier New", Courier, monospace;
-  padding-left: 17%;
-  margin-right: -35%;
-  margin-top: -2px;
+  color: #f2f2f2;
 }
 
 a {
@@ -126,11 +121,9 @@ a {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  color: #008000;
-  font-size: 40px;
-  font-family: "Courier New", Courier, monospace;
+  color: #F2F2F2;
   text-decoration: underline;
- }
+}
 
 em {
   font-style: italic;
@@ -146,13 +139,13 @@ img {
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
+  border: 1px solid #cccccc;
 
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
+  box-shadow: 0 0 5px #cccccc;
+  -webkit-box-shadow: 0 0 5px #cccccc;
+  -moz-box-shadow: 0 0 5px #cccccc;
+  -o-box-shadow: 0 0 5px #cccccc;
+  -ms-box-shadow: 0 0 5px #cccccc;
 }
 
 p img {
@@ -278,11 +271,29 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+#solo_logo {
+	display: block;
+	position: absolute;
+	top: 25%;
+	left: -25%;
+	padding-bottom: 115px;
+	padding-right: 158px;
+	z-index: 11;
+	background: url('../images/solo_logo.png');
+	background-size: 158px 115px;
+	border: 0;
+	box-shadow: 0;
+	-webkit-box-shadow: 0;
+	-moz-box-shadow: 0;
+	-o-box-shadow: 0;
+	-ms-box-shadow: 0;
+}
+
 #forkme_banner {
   display: block;
   position: absolute;
   top:0;
-  right: -55%;
+  right: 10px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
@@ -294,28 +305,28 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: url('../images/site_header.png');
-  /*background: -moz-linear-gradient(top, #373737, #212121);
+  background: #212121;
+  background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);*/
+  background: linear-gradient(top, #373737, #212121);
 }
 
 #header_wrap .inner {
-  padding: 0px 1% 12% 1%;
+  padding: 50px 10px 30px 10px;
 }
 
 #project_title {
   margin: 0;
-  color: #fff;
+  color: #f5f5f5;
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
 }
 
 #project_tagline {
-  color: #fff;
+  color: #e5e5e5;
   font-size: 24px;
   font-weight: 300;
   background: none;
@@ -362,7 +373,7 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #eeeeee;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
@@ -372,7 +383,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: url('../images/site_footer.png');
+  background: #212121;
 }
 
 
@@ -404,7 +415,7 @@ Small Device Styles
   }
 
   h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   h3 {
