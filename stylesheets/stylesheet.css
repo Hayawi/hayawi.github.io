@@ -283,6 +283,15 @@ Full-Width Styles
 	background-size: 158px 115px;
 }
 
+#app_screenshot {
+	border: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	-ms-box-shadow: none;
+}
+
 #forkme_banner {
   display: block;
   position: fixed;
@@ -341,12 +350,13 @@ Full-Width Styles
 
 .zip_download_link {
   display: block;
-  float: right;
+  float: left;
   width: 90px;
   height:70px;
   text-indent: -5000px;
   overflow: hidden;
   background: url(../images/sprite_download.png) no-repeat bottom left;
+  margin-left: 30px;
 }
 
 .tar_download_link {
