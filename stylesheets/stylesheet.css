@@ -136,7 +136,7 @@ strong {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 739px;
+  max-width: 100%;
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #cccccc;
@@ -266,7 +266,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 960px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -275,18 +275,12 @@ Full-Width Styles
 	display: block;
 	position: absolute;
 	top: 25%;
-	left: -25%;
+	left: -20%;
 	padding-bottom: 115px;
 	padding-right: 158px;
-	z-index: 11;
-	background: url('../images/solo_logo.png');
+	z-index: 10;
+	background: url('../images/solo_logo.png') no-repeat;
 	background-size: 158px 115px;
-	border: 0;
-	box-shadow: 0;
-	-webkit-box-shadow: 0;
-	-moz-box-shadow: 0;
-	-o-box-shadow: 0;
-	-ms-box-shadow: 0;
 }
 
 #forkme_banner {
