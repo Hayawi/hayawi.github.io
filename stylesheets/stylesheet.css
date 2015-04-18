@@ -272,7 +272,7 @@ Full-Width Styles
 }
 
 #solo_logo {
-	display: block;
+	display: inline;
 	position: absolute;
 	top: 25%;
 	left: 80%;
