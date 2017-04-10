@@ -21,6 +21,11 @@ body {
   margin: 30px 0;
 }
 
+.padded {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -80,6 +85,7 @@ body {
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
+  padding-top: 40px;
   margin-bottom: 20px;
   text-align: center;
 }
