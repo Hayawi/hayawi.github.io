@@ -20,6 +20,9 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	
+	<!-- Custom Icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -40,11 +43,12 @@
       <div class="container">
         <nav class="navbar navbar-custom navbar-fixed-top ">
           <div class="container">
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="page-scroll active"><a href="#header">Home</a></li>
-                <li class="page-scroll"><a href="#about">About</a></li>
+            <div id="navbar" class="page-scroll navbar-collapse collapse">
+			  <a class="navbar-header navbar-brand" href="#header">Yahya Ismail</a>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="page-scroll active"><a href="#about">About</a></li>
                 <li class="page-scroll"><a href="#jobs">Work Experience</a></li>
+				<li class="page-scroll"><a href="#contact">Contact Me</a></li>
               </ul>
             </div>
         </nav>
@@ -54,24 +58,27 @@
 
     <!-- Carousel
     ================================================== -->
-    <div id="header" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-	    <div class="item active">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>YAHYA ISMAIL</h1>
-			</div>
-		  </div>
+    <!-- Header -->
+    <header>
+        <div class="container" id="header">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--<img class="img-responsive" src="img/Taha M.jpg" alt="" style="width:60px;height:100px;">-->
+                    <div class="intro-text">
+						<img src="Assets/yahyapicture.jpg" alt="Yahya Ismail" width="250" height="250">
+                        <hr class="star-light">
+                        <span class="name">Yahya Ismail</span>
+						</div>
+                </div>
+            </div>
         </div>
-      </div>
-	  <div id="about"></div>
-    </div><!-- /.carousel -->
+    </header>
 
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-    <div class="container marketing">
+    <div class="container marketing" id="about">
 	
       <!-- Three columns of text below the carousel -->
       <div class="row">
@@ -94,25 +101,15 @@
           <p><a class="btn btn-default" href="http://gamejolt.com/profile/hayawi/25266" role="button">View GameJolt &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
-	  <div class="row">
-		<div class="col-lg-6">
-		  <p>Contact Me!</p>
-		  <span class="glyphicon glyphicon-envelope" aria-hidden="true"><p><a href="mailto:yahya.ismail@hotmail.ca">yahya.ismail@hotmail.ca</a></p></span><br>
-		  <span class="glyphicon glyphicon-phone" aria-hidden="true"><p><a href="tel:647-772-1339">(647)-772-1339</a></p></span>
-		</div>
-		<div class="col-lg-6">
-		  <p>Résumé</p>
-		  <span class="glyphicon glyphicon-save-file" aria-hidden="true"><p><a href="Assets/Yahya Ismail Resume.pdf">Download!</a></p></span>
-		</div>
-	  </div>
 	</div>
+	
+	<hr class="star-primary =" id="jobs">
 	
 	<div class="container">
 
       <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider" id="jobs">
-
+	  
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-image">RBC - Software Developer Co-op<span class="text-muted"><br>January - April 2017</span></h2>
@@ -170,8 +167,23 @@
           <img class="featurette-image img-responsive center-block" src="Assets/ilax.jpg" alt="i-Lax Electronics Inc." width="250" height="250">
         </div>
       </div>
+	  
+	  <hr class="star-primary" id="jobs">
+	  
+	  <div class="row padded" id="contact">
+		<div class="col-lg-6">
+		  <p>Contact Me!</p>
+		  <span class="glyphicon glyphicon-envelope" aria-hidden="true"><p><a href="mailto:yahya.ismail@hotmail.ca">yahya.ismail@hotmail.ca</a></p></span><br>
+		  <span class="glyphicon glyphicon-phone" aria-hidden="true"><p><a href="tel:647-772-1339">(647)-772-1339</a></p></span>
+		</div>
+		<div class="col-lg-6">
+		  <p>Résumé</p>
+		  <span class="glyphicon glyphicon-save-file" aria-hidden="true"><p><a href="Assets/Yahya Ismail Resume.pdf">Download!</a></p></span>
+		</div>
+	  </div>
+	  
+	   <hr class="featurette-divider">
 
-      <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
 
@@ -180,7 +192,9 @@
       <footer class="footer">
 		<div class="container">
 		  <p class="pull-left"><a href="http://github.com/hayawi">GitHub</a> &middot <a href="https://ca.linkedin.com/in/yahya-ismail-9036ab92">LinkedIn</a> &middot <a href="https://twitter.com/hayawinator">Twitter</a></p>
-          <p class="page-scroll pull-right"><a href="#">Back to top</a></p>
+          <div class="page-scroll">
+			<p class="pull-right"><a href="#header">Back to top</a></p>
+		  </div>
 		</div>
       </footer>
 

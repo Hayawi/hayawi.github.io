@@ -41,7 +41,7 @@ hr.star-primary {
 }
 hr.star-light:after,
 hr.star-primary:after {
-  content: "\f005";
+  content: "\f11b";
   font-family: FontAwesome;
   display: inline-block;
   position: relative;
@@ -53,7 +53,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #5b965b;
   color: white;
 }
 hr.star-primary {
@@ -68,7 +68,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #5b965b;
   color: white;
 }
 header .container {
@@ -92,8 +92,8 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 20px;
   }
   header .intro-text .name {
     font-size: 4.75em;
